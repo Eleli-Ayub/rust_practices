@@ -11,7 +11,6 @@ pub fn system_information(){
     println!("used memory: {:.2} GB", memory_bytes_to_gb(sys.used_memory())); 
     println!("total swap: {:.2} GB", memory_bytes_to_gb(sys.total_swap()));
     println!("used swap: {:.2} GB", memory_bytes_to_gb(sys.used_swap()));
-
     println!("System Name: {:?} GB", System::name());
     println!("System kernel version:   {:?}", System::kernel_version());
     println!("System OS version:       {:?}", System::os_version());
